@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import TodoForm from "./TodoForm";
+import { AiOutlineDelete } from "react-icons/ai";
+import { FiEdit } from "react-icons/fi";
 
 function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
   const [edit, setEdit] = useState({
@@ -28,15 +30,14 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
         {todo.text}
       </div>
       <div className="icons">
-        <button onClick={() => removeTodo(todo.id)} className="delete-icon">
-          Remove
-        </button>
-        <button
+        <AiOutlineDelete
+          onClick={() => removeTodo(todo.id)}
+          className="delete-icon"
+        />
+        <FiEdit
           onClick={() => setEdit({ id: todo.id, value: todo.text })}
           className="edit-icon"
-        >
-          Edit
-        </button>
+        />
       </div>
     </div>
   ));
