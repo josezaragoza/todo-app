@@ -19,4 +19,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - View of the initial page.
 
-![InitialView](.src/Images/starting-page.png)
+![InitialView](./src/Images/starting-page.png)
