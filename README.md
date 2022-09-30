@@ -1,6 +1,6 @@
 # Small Steps: A Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Todo app (or Small Steps) is a place to make a list of your tasks or chores for the day. Users can log, update, delete, and mark todos as complete on the Small Steps app. 
 
 
 ## Live Link
@@ -19,4 +19,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - View of the initial page.
 
-![InitialView](./src/Images/starting-page.png)
+![initialView](./src/Images/starting-page.png)
+
+- View of page with tasks to do.
+
+![todos](./src/Images/todos.png)
+
+- View while updating a task.
+
+![update](./src/Images/update.png)
+
+- View of tasks completed.
+
+![complete](./src/Images/complete.png)
