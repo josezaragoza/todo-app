@@ -3,11 +3,6 @@
 The Todo app (or Small Steps) is a place to make a list of your tasks or chores for the day. Users can log, update, delete, and mark todos as complete on the Small Steps app. 
 
 
-## Live Link
-
-[Live Deployment](https://small--steps.herokuapp.com/)
-
-
 ## Techonology Used
 
 - CSS
